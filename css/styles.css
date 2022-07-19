@@ -53,7 +53,7 @@ ul {
     align-content: center;
 }
 
-.nav-link {
+.menu-links__nav-link {
     position: relative;
     color: var(--title-text-color);
     font-weight: 500;
@@ -67,19 +67,19 @@ ul {
     margin-right: 0;
 }
 
-.nav-link:hover {
+.menu-links__nav-link:hover {
     color: var(--accent-color);
 }
 
-.nav-link:focus {
+.menu-links__nav-link:focus {
     color: var(--accent-color);
 }
 
-.nav-link.current {
+.menu-links__nav-link.current {
     color: var(--accent-color);
 }
 
-.nav-link.current::after {
+.menu-links__nav-link.current::after {
     position: absolute;
     content: "";
     width: 100%;
