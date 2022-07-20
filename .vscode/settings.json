@@ -1,0 +1,16 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.accessibilityPageSize": 12,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.minimap.enabled": false,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/css",
+            "savePathReplacementPairs": null
+        }
+    ]
+}
