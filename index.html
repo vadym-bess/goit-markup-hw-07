@@ -68,22 +68,22 @@
         
         <section class="img-hero-section hero-section">
             <div class="conteiner">
-                <h1 class="hero-title">
+                <h1 class="hero-section__title">
                 Эффективные решения для вашего бизнеса
                 </h1>
         
-                <button data-modal-open class="hero-button" type="button">Заказать услугу</button>
+                <button data-modal-open class="hero-button" type="submit">Заказать услугу</button>
 
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
                         <div class="conteiner-modal">
-                            <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
+                            <p class="conteiner-modal__form-title">Оставьте свои данные, мы вам перезвоним</p>
 
                             <form>
                             <div class="form-item">
-                                <label class="label-item" for="username">Имя</label>
-                                <div class="input-item "><input class="input-inner" type="text" name="username" id="username">
-                                    <svg class="icon-item human">
+                                <label class="form-item__label" for="username">Имя</label>
+                                <div class="input-item "><input class="input-item__inner" type="text" name="username" id="username">
+                                    <svg class="input-item__icon human">
                                         <use href="./images/symbol-defs.svg#icon-man"></use>
                                     </svg>
                 
@@ -92,10 +92,10 @@
                             </div>
 
                             <div class="form-item">
-                                <label class="label-item" for="tel">Телефон</label>
+                                <label class="form-item__label" for="tel">Телефон</label>
                                 <div class="input-item">
-                                    <input class="input-inner" type="tel" id="tel">
-                                    <svg class="icon-item telephone">
+                                    <input class="input-item__inner" type="tel" id="tel">
+                                    <svg class="input-item__icon telephone">
                                         <use href="./images/symbol-defs.svg#icon-tel"></use>
                                     </svg>
                                 </div>
@@ -103,10 +103,10 @@
                             </div>
 
                             <div class="form-item">
-                                <label class="label-item" for="email">Почта</label>
+                                <label class="form-item__label" for="email">Почта</label>
                                 <div class="input-item">
-                                        <input class="input-inner" type="email" id="email">
-                                     <svg class="icon-item envelope">
+                                        <input class="input-item__inner" type="email" id="email">
+                                     <svg class="input-item__icon envelope">
                                         <use href="./images/symbol-defs.svg#icon-mail"></use>
                                     </svg>
                                 </div>
@@ -114,18 +114,18 @@
                             </div>
 
                             <div class="form-item">
-                                <label class="label-item" for="user-comment">Комментарий</label>
-                                <textarea class="input-item-text" id="user-comment" name="user-comment" rows="10"
+                                <label class="form-item__label" for="user-comment">Комментарий</label>
+                                <textarea class="form-item__text" id="user-comment" name="user-comment" rows="10"
                                     placeholder="Введите текст"></textarea>
                             </div>
 
                             <div class="terms-condition">
-                                <div class="terms-condition-inner">
-                                    <div class="check-box-control">
-                                       <input class="terms-condition-input visually-hidden" id="terms-condition" type="checkbox" name="terms-condition">              
-                                       <svg class="terms-condition-icon"><use href="./images/symbol-defs.svg#icon-check"></use>
+                                <div class="terms-condition__inner">
+                                    <div class="terms-condition__check-box-control">
+                                       <input class="terms-condition__input visually-hidden" id="terms-condition" type="checkbox" name="terms-condition">              
+                                       <svg class="terms-condition__icon"><use href="./images/symbol-defs.svg#icon-check"></use>
                                     </svg></div>
-                                        <label class="terms-condition-text" for="terms-condition">Соглашаюсь с рассылкой и принимаю <span><a class="terms-link"
+                                        <label class="terms-condition__text" for="terms-condition">Соглашаюсь с рассылкой и принимаю <span><a class="terms-link"
                                                     href="">Условия договора</a></span></label>
                                 </div>   
                             </div>
@@ -137,7 +137,7 @@
 
                         </div>
                         <button type="button" data-modal-close class="modal-close-button">
-                            <svg class="icon-close">
+                            <svg class="modal-close-button__icon-close">
                                 <use href="./images/symbol-defs.svg#icon-vector"></use>
                             </svg>
                         </button>
