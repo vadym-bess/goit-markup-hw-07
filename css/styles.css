@@ -967,8 +967,8 @@ img{
     fill: #000000;
 }
 
-.icon-close:hover,
-.icon-close:focus {
+.modal-close-button__icon-close:hover,
+.modal-close-button__icon-close:focus {
     fill: var(--accent-color);
 }
 
