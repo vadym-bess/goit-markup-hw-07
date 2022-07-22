@@ -155,7 +155,7 @@
 .form-footer-conteiner {
     position: relative;
 
-        &__input {
+         &__input {
             width: 358px;
             height: 50px;
             background: var(--secondary-section-background);
@@ -170,7 +170,9 @@
             color: rgba(255, 255, 255, 0.6);
         }
     
-        &__input:hover {
+        &__input:hover,
+        &__input:focus,
+        &__input:active {
             border-color: var(--accent-color);
         }
 }
