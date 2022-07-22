@@ -36,12 +36,10 @@
 }
 
 .modal-close-button {
+    @include flex-centered;
     position: absolute;
     top: 8px;
     right: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 30px;
     height: 30px;
     margin: 0;
@@ -98,8 +96,8 @@
     height: 100%;
 
         &__label {
-            position: relative;
             display: flex;
+            position: relative;
             padding-left: 0;
             margin-bottom: 4px;
             font-family: 'Roboto' sans-serif;
@@ -138,7 +136,7 @@
 
 .terms-condition {
 
-        &__text {
+         &__text {
             position: relative;
             font-family: 'Roboto' sans-serif;
             font-style: normal;
@@ -151,7 +149,7 @@
             margin-bottom: 30px;
         }
     
-        &__check-box-control {
+         &__check-box-control {
             display: flex;
             align-items: center;
             position: absolute;
@@ -190,9 +188,7 @@
                 }
         
                 &__inner {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    @include flex-centered;
                     position: relative;
                 }
         
