@@ -3,12 +3,12 @@
     border: none;
     gap: 10px;
     margin-bottom: 30px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 
         &__item {
             width: 44px;
             height: 44px;
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            
         }
     
         &__link {
@@ -16,6 +16,7 @@
             height: 20px;
             fill: var(--fill-socials);
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            
         }
     
         &__icon {
@@ -24,19 +25,21 @@
             height: 100%;
             border-radius: 50%;
             fill: var(--fill-socials);
-    
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     
         &__icon:hover,
         &__icon:focus,
         &__icon:active {
             background-color: var(--accent-color);
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
         }
     
         &__icon:hover &__link,
         &__icon:focus &__link,
         &__icon:active &__link {
             fill: var(--secont-title-text-color)
+            
         }
 }
 
